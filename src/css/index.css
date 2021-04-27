@@ -1,0 +1,58 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body.light {
+    --background: #f7f4f4;
+    --border: #c7c5c5;
+    --color: black;
+    --accent-1: white;
+    --accent-2: #a3a2a2;
+    --primary-color: rgb(255, 249, 249);
+    --primary: #6e43fd;
+    --success: #4fca86;
+    --error: #c5263c;
+    --yellow: #f5a31e;
+    --dark: #18191f;
+
+}
+
+body {
+    --background: #1b1c23;
+    --border: #292c31;
+    --color: white;
+    --accent-1: #21242c;
+    --accent-2: #a3a3a3;
+    --primary-color: rgb(255, 249, 249);
+    --primary: #7045ff;
+    --success: #4fca86;
+    --error: #c5263c;
+    --yellow: #f5a31e;
+    --dark: #18191f;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: var(--background);
+    color: var(--color);
+    font: 14px "Open Sans", sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container { 
+    min-height: 100vh;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}

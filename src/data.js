@@ -1,0 +1,71 @@
+const dialog = [
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg",
+        message: "🖖",
+        id: 0,
+        date: "2021-04-15T14:51:04.712Z",
+        is: "her",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg",
+        message: "Blah blah?",
+        id: 1,
+        date: "2021-04-15T14:51:02.712Z",
+        is: "her",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg",
+        message: "Blah blah blah blah blah",
+        id: 2,
+        date: "2021-04-15T14:51:05.712Z",
+        is: "her",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg",
+        message: "Sup, blah-blah",
+        id: 3,
+        date: "2021-04-15T14:57:08.712Z",
+        status: "sended",
+        is: "my",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg",
+        message: "Blaaah, blah-blah blah xD",
+        id: 4,
+        date: "2021-04-15T14:58:01.712Z",
+        status: "sended",
+        is: "my",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg",
+        message: "Blah or bla?",
+        id: 5,
+        date: "2021-04-15T14:59:15.712Z",
+        status: "readed",
+        is: "my",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg",
+        message: "Blah ¯\\_(ツ)_/¯",
+        id: 6,
+        date: "2021-04-15T15:01:04.712Z",
+        is: "her",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg",
+        message: "kk",
+        id: 7,
+        date: "2021-04-15T15:02:04.712Z",
+        status: "readed",
+        is: "my",
+    },
+    {
+        avatar: "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg",
+        message: "👍",
+        id: 8,
+        date: "2021-04-15T15:03:04.712Z",
+        is: "her",
+    },
+];
+  
+export default dialog;
