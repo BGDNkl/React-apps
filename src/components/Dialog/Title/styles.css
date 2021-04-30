@@ -1,0 +1,5 @@
+.dialog .title {
+    margin: 20px 0;
+    text-align: center;
+    color: var(--accent-2); 
+}
